@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.1.0](https://github.com/folke/snacks.nvim/compare/v1.0.0...v1.1.0) (2024-11-07)
+
+
+### Features
+
+* **docs:** docs for highlight groups ([#13](https://github.com/folke/snacks.nvim/issues/13)) ([964cd6a](https://github.com/folke/snacks.nvim/commit/964cd6aa76f3608c7e379b8b1a483ae19f57e279))
+* **notifier:** added option to show notifs top-down or bottom-up. Closes [#9](https://github.com/folke/snacks.nvim/issues/9) ([080e0d4](https://github.com/folke/snacks.nvim/commit/080e0d403924e1e62d3b88412a41f3ab22594049))
+* **notifier:** allow overriding hl groups per notification ([8bcb2bc](https://github.com/folke/snacks.nvim/commit/8bcb2bc805a1785208f96ad7ad96690eee50c925))
+* **notifier:** allow setting dynamic options ([36e9f45](https://github.com/folke/snacks.nvim/commit/36e9f45302bc9c200c76349ecd79a319a5944d8c))
+* **win:** added default hl groups for windows ([8c0f10b](https://github.com/folke/snacks.nvim/commit/8c0f10b9dade154d355e31aa3f9c8c0ba212205e))
+* **win:** allow setting `ft` just for highlighting without actually changing the `filetype` ([cad236f](https://github.com/folke/snacks.nvim/commit/cad236f9bbe46fbb53127014731d8507a3bc80af))
+* **win:** equalize splits ([e982aab](https://github.com/folke/snacks.nvim/commit/e982aabefdf0b1d00ddd850152921e577cd980cc))
+* **win:** util methods to handle buffer text ([d3efb92](https://github.com/folke/snacks.nvim/commit/d3efb92aa546eb160782e24e305f74a559eec212))
+* **win:** win:focus() ([476fb56](https://github.com/folke/snacks.nvim/commit/476fb56bfd8e32a2805f46fadafbc4eee7878597))
+
+
+### Bug Fixes
+
+* **config:** deepcopy config where needed ([6c76f91](https://github.com/folke/snacks.nvim/commit/6c76f913981663ec0dba39686018cbc2ff3220b8))
+* **config:** fix reading config during setup. Fixes [#2](https://github.com/folke/snacks.nvim/issues/2) ([0d91a4e](https://github.com/folke/snacks.nvim/commit/0d91a4e364866e407901020b59121883cbfb1cf1))
+* **notifier:** try to keep layout when replacing notifs ([9bdb24e](https://github.com/folke/snacks.nvim/commit/9bdb24e735458ea4fd3974939c33ea78cbba0212))
+* **win:** better winfixheight and winfixwidth for splits ([8be14c6](https://github.com/folke/snacks.nvim/commit/8be14c68a7825fff90ca071f0650657ba88da423))
+* **win:** disable sidescroloff in minimal style ([107d10b](https://github.com/folke/snacks.nvim/commit/107d10b52e54828606a645517b55802dd807e8ad))
+* **win:** dont center float when `relative="cursor"` ([4991e34](https://github.com/folke/snacks.nvim/commit/4991e347dcc6ff6c14443afe9b4d849a67b67944))
+* **win:** set border to none for backdrop windows ([#19](https://github.com/folke/snacks.nvim/issues/19)) ([f5602e6](https://github.com/folke/snacks.nvim/commit/f5602e60c325f0c60eb6f2869a7222beb88a773c))
+
 ## 1.0.0 (2024-11-06)
 
 
